@@ -25,5 +25,5 @@ end
 
 Changing threshold and timeout:
 ```Lua
-    shakeDetector:reset(0.6, 0.3) -- threshold, timeout
+shakeDetector:reset(0.6, 0.3) -- threshold, timeout
 ```

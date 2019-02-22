@@ -12,7 +12,7 @@ function ShakeDetector:update(dt, x, y, z)
     if lastX == 0 and lastY == 0 and lastZ == 0 then lastX, lastY, lastZ = x, y, z end
     local dx, dy, dz = math.abs(lastX - x), math.abs(lastY - y), math.abs(lastZ - z)
     
-    if dx > self.threshold and dy > self.threshold or dx > self.threshold and dz > self.threshold or dy > self.threshold and dz > self.threshold then        
+    if dx > self.threshold and dy > self.threshold or dx > self.threshold and dz > self.threshold or dy > self.threshold and dz > self.threshold then
         if timer - lastTime > self.timeout then
             lastTime = timer
             self.count = self.count + 1

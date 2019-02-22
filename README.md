@@ -9,7 +9,6 @@ Example of usage with [Love2d](https://love2d.org) (free 2d Game Engine):
 ```Lua
 function love.load()
     shakeDetector = require "shakeDetector"
-    shakeDetector:init(0.5, 0.25) --threshold, timeout
     local joysticks = love.joystick.getJoysticks()
     joystick = joysticks[#joysticks]    
 end
@@ -24,3 +23,7 @@ function love.draw()
 end
 ```
 
+Changing threshold and timeout:
+```Lua
+    shakeDetector:reset(0.6, 0.3) -- threshold, timeout
+```

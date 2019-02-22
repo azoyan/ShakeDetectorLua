@@ -1,9 +1,8 @@
 local ShakeDetector = { count = 0 }
 local lastX, lastY, lastZ, timer, lastTime, threshold, timeout = 0, 0, 0, 0, 0, 0.5, 0.25
 
-function ShakeDetector:reset(threshold, timeout)
-    theshold = threshold or 0.5
-    timeout = timeout or 0.25
+function ShakeDetector:reset(th, to)
+    theshold, timeout = th or 0.5, to or 0.25
 end
 
 function ShakeDetector:update(dt, x, y, z)

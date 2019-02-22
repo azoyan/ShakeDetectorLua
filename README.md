@@ -1,7 +1,7 @@
 # Shake Detector Lua
 It is porting of [shake.js](https://github.com/alexgibson/shake.js/blob/master/shake.js) library to Lua.
 
-The module is designed to compatible for any engine that have delta time  and accelerometer data.
+The module is designed to be compatible with any Lua engine that can get delta-time between update cycles and accelerometer data.
 
 Example of usage with [Love2d](https://love2d.org) (free 2d Game Engine):
 

@@ -2,6 +2,7 @@
 The module is designed to compatible for any engine that have delta time  and accelerometer data.
 
 Example of usage with Love2d (Free 2d Game Engine):
+**main.lua**
 ```Lua
 function love.load()
     shakeDetector = require "shakeDetector"

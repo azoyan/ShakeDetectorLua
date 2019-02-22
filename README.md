@@ -3,7 +3,7 @@ It is port of [shake.js](https://github.com/alexgibson/shake.js/blob/master/shak
 
 The module is designed to compatible for any engine that have delta time  and accelerometer data.
 
-Example of usage with [Love2d](https://love2d.org)(free 2d Game Engine):
+Example of usage with [Love2d](https://love2d.org) (free 2d Game Engine):
 
 **main.lua**
 ```Lua

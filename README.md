@@ -1,4 +1,4 @@
-# ShakeDetectorLua
+# Shake Detector Lua
 The module is designed to compatible for any engine that have delta time  and accelerometer data.
 Example of usage with Love2d (Free 2d Game Engine):
 ```Lua

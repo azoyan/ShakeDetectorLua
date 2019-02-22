@@ -5,7 +5,7 @@ Example of usage with Love2d (Free 2d Game Engine):
 ```Lua
 function love.load()
     shakeDetector = require "shakeDetector"
-    shakeDetector:init(0.5, 0.25)    
+    shakeDetector:init(0.5, 0.25) --threshold, timeout
     local joysticks = love.joystick.getJoysticks()
     joystick = joysticks[#joysticks]    
 end

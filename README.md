@@ -22,6 +22,10 @@ function love.draw()
     love.graphics.print(shakeDetector.count)
 end
 ```
+Get shakes count
+```Lua
+    shakeDetector.count
+```
 
 Changing threshold and timeout:
 ```Lua

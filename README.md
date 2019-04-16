@@ -24,6 +24,11 @@ function love.draw()
     love.graphics.print(shakeDetector.count)
 end
 ```
+## API
+Update shake detector
+
+`update(dt, x, y, z)` arguments: delta-time between update cycles, accelerometer data x-axis, y-axis, z-axis
+
 Get shakes count
 ```Lua
 local shakesCount = shakeDetector.count

@@ -24,7 +24,7 @@ end
 ```
 Get shakes count
 ```Lua
-    shakeDetector.count
+local shakesCount = shakeDetector.count
 ```
 
 Changing threshold and timeout:

@@ -1,5 +1,3 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
 # Shake Detector Lua
 It is porting of [shake.js](https://github.com/alexgibson/shake.js/blob/master/shake.js) library to Lua.
 
